@@ -1,0 +1,37 @@
+.collapse{
+  display:none;
+}
+
+.card{
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  text-align: left;
+  font-size: 25px;
+  transition: 0.4s;
+  width: 100%;
+  text:decoration: none;
+  border: 1px solid grey;
+  margin-bottom:1px;
+  font-family:Georgia, serif;
+  color:#007bff;
+}
+
+button:hover{
+  text-decoration: underline;
+}
+
+.show{
+  display:block;
+}
+
+#card-body{
+  padding: 0 18px;
+  background-color: white;
+  max-height: 50px;
+  transition: max-height 1s ease-in-out;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  font-family:Georgia, serif;
+}
